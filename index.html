@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container mt-5 mb-5">
+        <h2 class="text-black-50 mt-5 mb-5">Bookmarker</h2>
+        <div class="cont position-relative">
+            <div class=" formatting mt-4 mb-4 m-auto pt-4">
+                <h3 class="text-center mb-3 mt-3">Bookmark your favorite sites</h3>
+                <label for="BookMarkName">Site Name</label>
+                <input type="text" placeholder="BookMarkName" class="form-control w-75 m-auto p-2 mb-3"
+                    id="BookMarkName">
+                <label>Site URL</label>
+                <input type="text" placeholder="Web Site URL" class="form-control  w-75 m-auto p-2" id="WebSiteURL">
+                <button class="btn btn-danger mt-4 ps-3 pe-3 float-end" id="btnAdd"> Added </button>
+                <div class="clearfix"></div>
+            </div>
+            <p class="text-black-50">© 2022 Bookmarker Inc.</p>
+
+            <table class="table table-striped">
+                <thead>
+                    <th>#</th>
+                    <th>BookMarkName</th>
+                    <th>Website Url</th>
+                    <th>Visit</th>
+                    <th>Delete</th>
+                </thead>
+                <tbody id="tableBody">
+
+
+                </tbody>
+            </table>
+        </div>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>

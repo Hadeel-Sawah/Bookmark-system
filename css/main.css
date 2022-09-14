@@ -1,0 +1,25 @@
+body{
+    overflow-x: hidden;
+}
+.cont::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(165, 163, 163);
+}
+.cont::before{
+    top: -35px;
+} 
+.formatting{
+    height: 360px;
+    width: 95%;
+    background-color: #c1c1c161;
+}
+label{
+    margin-left: 8.3rem;
+    font-size: large;
+}
+#btnAdd{
+    margin-right: 8.2rem;
+}
